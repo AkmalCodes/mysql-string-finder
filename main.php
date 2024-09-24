@@ -2,6 +2,8 @@
 
 require_once("db.php");
 
+$search_term = 'Licin Kosong'; // The term you want to search for
+
 echo "Connected to MySQL successfully!\n";
 echo "Searching for term: '$search_term'\n";
 
@@ -72,7 +74,7 @@ if ($tables_result && $tables_result->num_rows > 0) {
         echo "No matches found in the entire database.\n";
     }
 
-    print_r($matched_entries);
+    // print_r($matched_entries);
 } else {
     echo "No tables found in the database '$database'.\n";
 }
