@@ -8,7 +8,8 @@
 ``` Select  * from table_name where name LIKE '%something_to_search%' ; ```
 
 ### purpose of this program
-
+- search for specific string data in database
+- used to help with database data-mining
 
 ### how to use:
 
